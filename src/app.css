@@ -1,0 +1,36 @@
+:root {
+    --color-bg: #2c3531;
+    --color-text: #fff;
+
+    --color-1: #116466;
+    --color-2: #d9b08c;
+    --color-3: #ffcb9a;
+    --color-4: #d1e8e2;
+}
+
+body {
+    margin: 0;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Katibeh', cursive;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
